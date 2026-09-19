@@ -1,0 +1,6 @@
+(library
+ (name lob_expect_tests)
+ (libraries core lob_types)
+ (preprocess
+  (pps ppx_jane))
+ (inline_tests))

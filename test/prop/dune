@@ -1,0 +1,6 @@
+(library
+ (name lob_prop_tests)
+ (libraries qcheck-core lob_types)
+ (preprocess
+  (pps ppx_jane))
+ (inline_tests))

@@ -1,0 +1,7 @@
+(library
+ (name lob_types)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane))
+ (instrumentation
+  (backend bisect_ppx)))
