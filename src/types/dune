@@ -1,5 +1,6 @@
 (library
  (name lob_types)
+ (public_name lob.types)
  (libraries core)
  (preprocess
   (pps ppx_jane))

@@ -1,6 +1,11 @@
 (lang dune 3.16)
 (name lob)
 (generate_opam_files true)
+(license MIT)
+(authors "Adith")
+(maintainers "Adith")
+(source
+ (github adithn875/road-to-jane-street))
 
 (package
  (name lob)
